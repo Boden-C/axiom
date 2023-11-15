@@ -11,5 +11,4 @@ app.post("/views/index.ejs", async (req, res) => {
     var obj = await response.json();
 
     res.send(obj);
-
 });
