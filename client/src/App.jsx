@@ -1,17 +1,18 @@
-import { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import HealthBar from "./HealthBar";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import "./styles/App.css";
+import Landing from "./pages/Landing";
+import Dev from "./pages/Dev";
 
 
 function App() {
 
     return (
-        <div>
-            <h1>My Health Bar</h1>
-            <HealthBar maxHealth={10.0} />
-        </div>
+        <Router>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/dev" element={<Dev />} />
+        </Routes>
+      </Router>
     );
 }
 
