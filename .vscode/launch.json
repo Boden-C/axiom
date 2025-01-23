@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Run both",
+            "command": "npm --prefix ${workspaceFolder} run dev",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Run client",
+            "command": "npm --prefix ${workspaceFolder} run dev-client",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Run server",
+            "command": "npm --prefix ${workspaceFolder} run dev-server",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
