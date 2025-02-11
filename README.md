@@ -5,13 +5,11 @@
    <a href="../../releases"><img src="https://img.shields.io/badge/Front_End-In Progress-red?style=flat-square" alt="Version"></a>  
    <a href="../../wiki"><img src="https://img.shields.io/badge/Wiki-WIP-red?style=flat-square" alt="Version"></a>  
    <br>
-   This repository is meant to include all important community files for open source projects
+   A powerful documentation and context creator for Natural Language Processing
 </div>
 <br>
-### A collaborative project to provide easy access to the National Center for Biotechnology Information
 
-[NCBI](https://www.ncbi.nlm.nih.gov/), the U.S. National Library of Medicine, the National Institute of Health
-
+See the branch [dev](../dev) for more information
 
 # Developer
 ## Starting
