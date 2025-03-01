@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.axiom'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.javaparser:javaparser-core:3.25.4' // JavaParser for parsing
+    implementation 'org.apache.logging.log4j:log4j-api:2.19.0' // Log4j API
+    implementation 'org.apache.logging.log4j:log4j-core:2.19.0' // Log4j Core
+    implementation 'org.jetbrains:annotations:24.0.1' // For @NotNull and @Nullable
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0' // JUnit 5 for testing
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'com.axiom.Main'
+}

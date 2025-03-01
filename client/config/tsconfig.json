@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "strictNullChecks": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "types": [],
+        "typeRoots": [],
+        "noImplicitAny": false
+    },
+    "include": ["../**/*.js"],
+    "exclude": ["node_modules"]
+}
