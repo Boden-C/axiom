@@ -8,8 +8,12 @@
    A powerful documentation and context creator for Natural Language Processing
 </div>
 <br>
+<br>
 
-See the branch [dev](../dev) for more information
+> [!WARNING]  
+> This is still in production (it's a big project)  
+> Are you maybe looking for [Project Sentinel](https://github.com/Boden-C/sentinel)?  
+> See the branch [dev](../dev) for more information  
 
 # Developer
 ## Starting
