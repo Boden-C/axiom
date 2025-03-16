@@ -15,6 +15,8 @@
 > Are you maybe looking for [Project Sentinel](https://github.com/Boden-C/sentinel)?  
 > See the branch [dev](../dev) for more information  
 
+This project is being split, some of it will be moved to [Project Catalyst](https://github.com/Boden-C/catalyst)
+
 # Developer
 ## Starting
 
